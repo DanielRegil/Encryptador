@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"> 
+    <link rel="stylesheet" href="reset.css"> 
+    <link rel="stylesheet" href="styles.css"> 
+
+    
+    <title>Encriptador</title>
+
+</head>
+
+<body onload="contadorcaracteres()">
+   
+    <main>
+        <header>
+
+        </header>
+        <nav>    
+            <img class="logotipo" src="D logo.png">
+
+            <nav class="object" id="object">
+                <div id="text" class="text">
+                    
+                </div>
+                <div id="noText" class="noText">
+                    <img class="imagen" src="mensaje no encontrado.png">
+                    <h1>Ningun mensaje fue encontrado.</h1>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                
+                <div class="buttonCopy">
+                    <button type="button" onclick="copy()" id="copy" class="copy" >Copiar texto</button>
+                </div>
+                    
+                
+               
+            </nav>
+            
+        </nav>
+        <div>
+            <textarea cols="70" rows="10" class="inputPadron" id="txtCount" placeholder="Ingrese el texto" ></textarea>
+            <div  id="count"></div>
+        </div>
+        <div class="button">                
+            <p>&#9888;Solo acepta letras minusculas y sin acento</p>
+            <button type="button" onclick="encrypt()" id="encrypt" class="encrypt">Encriptar</button>
+            <button type="button" onclick="decrypt() "  id="decrypt" class="decrypt">Desencriptar</button>
+
+        </div>
+
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

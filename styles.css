@@ -1,0 +1,145 @@
+body{
+    background-color: rgba(243,245,252,255);
+}
+.logotipo{
+  
+    width:80px;
+    padding-left: 2%;
+    padding-top: 1%;
+    
+}
+
+
+
+
+.inputPadron{
+    margin: 3% 5%;
+    background-color: rgba(243,245,252,255);
+    color:rgb(0, 0, 0);  
+    border: none;
+    width: 50%;
+    height: 450px;
+    color:rgba(10,56,113,255);
+    font-size: 19px;
+    resize: none;
+   
+}   
+
+.object{
+   float: right;
+   margin:1%;
+   padding: 15px;
+   height: 680px;
+   width: 25%;
+   color:rgba(10,56,113,255);
+   border: solid black ;
+   border-radius: 10px;
+   background-color: white;
+   font-size: 18px;
+   font-style: italic;
+   text-align: center;
+   
+    
+}
+
+.imagen{
+    width: 80%;
+    align-items: center;
+    display: block;
+
+}
+.text{
+    display: none;
+
+}
+
+
+
+
+.object h1{
+    font-size: 154%;
+    margin:30px;
+}
+
+.buttonCopy{
+    position:absolute;
+    justify-content: center;
+    bottom:50px;    
+    width: 25%;
+    padding: 10px;
+}
+.copy{
+    width: 80%;
+    font-size: 100%;
+    color:rgba(243,245,252,255);
+    background-color:rgba(10,56,113,255) ;
+    font-weight: bold;
+    padding: 0.4%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1%;
+    transition: 0.5s all;
+   
+}
+
+#count{
+    color: #000;
+    background-color: rgba(243,245,252,255);
+    padding-left:4rem;
+    padding-bottom: 3px;
+    border-radius: 8px;
+    font-size: 13px;
+    width: 40%;
+    height: 10px;
+
+}
+
+
+.button{
+    vertical-align: baseline;
+    margin-left: 2%;
+}
+
+div p{
+    color:rgba(10,56,113,255);
+    margin-left: 30px;
+    font-size: 80%;
+}
+.encrypt {
+    width: 20%;
+    font-size: 100%;
+    color:rgba(243,245,252,255);
+    background-color:rgba(10,56,113,255) ;
+    font-weight: bold;
+    padding: 0.4%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1%;
+    transition: 0.5s all;
+
+}
+
+.decrypt{
+    width: 20%;
+    font-size: 100%;
+    color:rgba(10,56,113,255);
+    background-color: rgba(216,223,232,255) ;
+    font-weight: bold;
+    padding: 0.4%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(10,56,113,255);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1%;
+    transition: 0.5s all;
+
+}
+
+button:hover{
+    transform:scale(1.01);
+}
+
+
