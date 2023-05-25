@@ -147,14 +147,21 @@ button:hover{
     transform:scale(1.01);
 }
 
-@media screen and (max-width:768px) {
-
+@media screen and (max-width:1024px) {
+    .logotipo{
+  
+        width:80px;
+        padding-left: 2%;
+        padding-top: 1%;
+        
+    }
     .imagen{
         display:  none;
     }
     .inputPadron{
-        width:88%;
-         height:400px;
+        height:30%;
+        width: 80%;
+         
      }
     .object{
         width:70%;
@@ -164,7 +171,7 @@ button:hover{
         box-shadow: 5px 5px 15px gray;
         position:absolute;
         right:10%;
-        top:70%; 
+        top:65%; 
 
     }
     .object h1{
@@ -194,4 +201,60 @@ button:hover{
     }
   
 }
+@media screen and (max-width:768px) {
+
+    .logotipo{
+  
+        width:50px;
+        padding-left: 2%;
+        padding-top: 1%;
+        
+    }
+    .imagen{
+        display:  none;
+    }
+    .inputPadron{
+        height:auto;
+        width:90%;
+         
+     }
+    .object{
+        width:70%;
+        height:200px;
+        float: center;
+        border-color:white;
+        box-shadow: 5px 5px 15px gray;
+        position:absolute;
+        right:10%;
+        top:65%; 
+
+    }
+    .object h1{
+        font-size: 18px;
+        font-weight: bold;
+        
+    }
+    div p{
+        font-size: 15px;
+        text-align: center;
+        margin: 5px;
+
+    } 
+    div{
+        align-items: center;
+    }
+    .encrypt, .decrypt, .count{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10px;       
+    }
+    .buttonCopy{
+        position:absolute;
+        bottom:1%;    
+        width: 90%;
+        padding: 2%;
+    }
+  
+}
+
 
