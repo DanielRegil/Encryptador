@@ -13,7 +13,7 @@ function innerHTML(id,resultado){
 function contadorcaracteres(){
   setInterval(function(){
     var c = getID("txtCount");
-    innerHTML("count", "Caracteres: " + (c.length) );
+    innerHTML("count", "Caracteres: " + (500-c.length) + "/500");
     
   },0000);
 
