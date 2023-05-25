@@ -21,16 +21,21 @@ function contadorcaracteres(){
 
 
 
-function textTrue(){   
+function textTrue(){ 
+  var button = ID("buttonCopy") ;
   var imagen = ID("noText");
   var text = ID("text");
   var c = getID('txtCount')
   if ((c<1)) {
     imagen.style.display = "block";
     text.style.display = "none";
+    button.style.display = "none";
+
   } else if ((c=>1)){
     imagen.style.display = "none";
     text.style.display = "block";
+    button.style.display = "block";
+   
   }
 }
 
@@ -149,7 +154,7 @@ function encrypt(){
 }
 
 function copy(){
-
+  
    var buttonCopy = ID("copy");
    let text = ID("text");
    var inputFake = document.createElement("input");
